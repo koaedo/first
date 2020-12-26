@@ -2,7 +2,7 @@
   "name": "boiler-plate",
   "version": "1.0.0",
   "description": "",
-  "main": "server/index.js",
+  "main": "index.js",
   //"main": "concurrently \"npm run backend \" \"npm run start --prefix client\"",
   "scripts": {
     "start": "node server/index.js",
