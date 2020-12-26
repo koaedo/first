@@ -1,6 +1,6 @@
 import React , {useEffect} from 'react'
 import axios from 'axios';
-//import { response } from 'express';
+import { withRouter} from 'react-router-dom';
 
 
 function LandingPage(props) {
@@ -32,4 +32,4 @@ const onClickHandler = () => {
     )
 }
 
-export default LandingPage
+export default withRouter(LandingPage)
